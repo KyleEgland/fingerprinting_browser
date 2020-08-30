@@ -1,0 +1,57 @@
+/* style.css - fingerprinting_browser */
+:root {
+    font-size: 16px;
+    --bg-primary: #00171e;
+    --txt-primary: #01aeea;
+    --txt-secondary: #54074a;
+    --nav-bg: #22224f;
+    --nav-txt: #ed14a6;
+}
+
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 15vh 75vh 10vh;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------- */
+/* Navigation Bar */
+/* -------------- */
+.nav-list {
+    background-color: var(--nav-bg);
+    display: grid;
+    grid-row: 1;
+}
+
+.nav-link {
+    color: var(--nav-txt);
+    text-decoration: none;
+}
+
+/* ------- */
+/* Content */
+/* ------- */
+.content {
+    background-color: var(--bg-primary);
+}
+
+/* ------ */
+/* Footer */
+/* ------ */
+.footer {
+    background-color: var(--nav-bg);
+}
+
+/* ------------- */
+/* Mobile screen */
+/* ------------- */
+@media screen and (max-width: 44em) {
+
+}
