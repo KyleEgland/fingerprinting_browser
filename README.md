@@ -10,3 +10,5 @@ This project is intended to be a "live demo" of what information a browser can e
 
 * [normalize.css](https://github.com/necolas/normalize.css)
 * [Navigator API](https://developer.mozilla.org/en-US/docs/Web/API/Navigator)
+* [Example HTML](https://www.webfx.com/web-design/html-ipsum/)
+* [Friconix](https://friconix.com/board/73/basic-icons/)
